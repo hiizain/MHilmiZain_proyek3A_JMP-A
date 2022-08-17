@@ -2,6 +2,7 @@ package com.example.myapplicationpertemuan9;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -80,6 +81,9 @@ public class RegisterActivity extends AppCompatActivity {
         }
 
         Toast.makeText(this, "Register Berhasil", Toast.LENGTH_SHORT).show();
-        onBackPressed();
+//        onBackPressed();
+        Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+        startActivity(intent);
+        finish();
     }
 }
