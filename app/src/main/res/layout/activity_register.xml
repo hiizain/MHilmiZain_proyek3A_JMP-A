@@ -2,7 +2,6 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/etEmailR"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterActivity">
@@ -18,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="@string/username" />
+            android:text="@string/username_r" />
 
         <EditText
             android:id="@+id/etUsernameR"
@@ -26,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:ems="10"
-            android:hint="@string/username"
+            android:hint="@string/username_r"
             android:inputType="textPersonName"
             tools:ignore="TouchTargetSizeCheck"
             android:importantForAutofill="no" />
@@ -36,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/password" />
+            android:text="@string/password_r" />
 
         <EditText
             android:id="@+id/etPasswordR"
@@ -44,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:ems="10"
-            android:hint="@string/password"
+            android:hint="@string/password_r"
             android:inputType="textPassword"
             tools:ignore="TouchTargetSizeCheck"
             android:importantForAutofill="no" />
@@ -54,15 +53,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/email" />
+            android:text="@string/email_r" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/etEmailR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:ems="10"
-            android:hint="@string/email"
+            android:hint="@string/email_r"
             android:inputType="textEmailAddress"
             tools:ignore="TouchTargetSizeCheck"
             android:importantForAutofill="no" />
@@ -72,7 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/nama_lengkap" />
+            android:text="@string/nama_lengkap_r" />
 
         <EditText
             android:id="@+id/etNamaR"
@@ -80,7 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:ems="10"
-            android:hint="@string/nama_lengkap"
+            android:hint="@string/nama_lengkap_r"
             android:inputType="textPersonName"
             tools:ignore="TouchTargetSizeCheck"
             android:importantForAutofill="no" />
@@ -90,7 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/asal_sekolah" />
+            android:text="@string/asal_sekolah_r" />
 
         <EditText
             android:id="@+id/etAsalR"
@@ -98,7 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:ems="10"
-            android:hint="@string/asal_sekolah"
+            android:hint="@string/asal_sekolah_r"
             android:inputType="textPersonName"
             tools:ignore="TouchTargetSizeCheck"
             android:importantForAutofill="no" />
@@ -108,7 +107,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/alamat_tinggal" />
+            android:text="@string/alamat_tinggal_r" />
 
         <EditText
             android:id="@+id/etAlamatR"
@@ -116,7 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:ems="10"
-            android:hint="@string/alamat_tinggal"
+            android:hint="@string/alamat_tinggal_r"
             android:inputType="textMultiLine"
             tools:ignore="TouchTargetSizeCheck"
             android:importantForAutofill="no" />

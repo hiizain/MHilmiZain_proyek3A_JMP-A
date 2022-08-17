@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_gravity="center"
         android:layout_marginTop="32dp"
-        app:srcCompat="@drawable/logoKominfo" />
+        app:srcCompat="@drawable/logokominfo" />
 
     <TextView
         android:id="@+id/tvUsername"
